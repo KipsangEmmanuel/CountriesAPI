@@ -1,0 +1,52 @@
+.card {
+    background-color: var(--element);
+    border-radius: 7px;
+    box-shadow: 0 0 7px var(--shadow);
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card-flag-container {
+    align-items: center;
+    height: 50%;
+}
+
+.card-flag {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    line-height: 1rem;
+    padding: 1.5rem;
+}
+
+.card-info h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.card-info p {
+    font-size: .875rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.card-info span {
+    font-weight: 400;
+}
+
+@media screen and (max-width: 547px) {
+    .card {
+        max-width: 18rem;
+    }
+}
